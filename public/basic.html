@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Basic</title>
+  <link rel="stylesheet" href="dist/jquery-gantt.css">
+  <!-- Demo stylesheet -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <div id="demo"></div>
+
+  <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+  <script src="dist/jquery-gantt.js"></script>
+  <script src="js/demo-events.js"></script>
+  <script>
+    $('#demo').gantt({
+        data: eventsData,                   // [] Data source
+        startDate: new Date('2016-07-01'),  // Chart start date
+        endDate: new Date('2016-10-01'),    // Chart end date
+        
+        /* default
+        cellWidth: 20,                      // Width of the chart cell
+        cellHeight: 38,                     // Height of the chart cell
+        stickyHeader: false,                // Stick an header
+        mouseScroll: false,                 // Enables slide moving with mouse
+        mouseScrollpx: 120,                 // Mouse scroll speed
+        lazyLoad: false,                    // Lazy load technique
+        autoHide: false,                    // Auto hiding of out of date events
+        */
+    });
+  </script>
+</body>
+</html>
