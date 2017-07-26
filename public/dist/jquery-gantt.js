@@ -237,7 +237,7 @@ var lazyload = {
         tourType = 'cruise';
       }
 
-      var title = element.minNight + ' Gece';
+      var title = element.minNight + ' 泊';
 
       var eventBlock = $$1('<a>', {
         class: this.format('gantt-event-block {0}', tourType),
@@ -675,7 +675,7 @@ var Gantt = function () {
           tourType = 'cruise';
         }
 
-        var title = el.minNight + ' Gece';
+        var title = el.minNight + ' 泊';
 
         var eventBlock = $$1('<a>', {
           class: 'gantt-event-block ' + tourType,
