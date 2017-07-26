@@ -1,11 +1,11 @@
 var eventsData = [
 {
-    "title": "Zaporojie Turu",
+    "title": "所さんの学校では教えてくれないそこんトコロ！",
     "startdate": "2016/07/21",
     "enddate": "2016/07/26",
     "url": "http://www.example.com/1",
-    "type": "Tur",
-    "minNight": "4",
+    "type": "TurBus",
+    "minNight": "3",
     "price": {
         "original": {
             "price": 798.0000,
