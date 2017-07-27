@@ -1,3 +1,5 @@
+var date = new Date('2017-07-21');
+
 var eventsData = [
 {
     "title": "Zaporojie Turu",
@@ -26,7 +28,7 @@ var eventsData = [
         },
         "url": null
     },
-    "dateorder": "\/Date(1469048400000)\/"
+    "dateorder": "\/date.getTime()\/"
 },
 {
     "title": "Amsterdam İlkbahar , Yaz Turu ",
@@ -55,7 +57,7 @@ var eventsData = [
         },
         "url": null
     },
-    "dateorder": "\/Date(1469048400000)\/"
+    "dateorder": "\/date.getTime()\/"
 },
 {
     "title": "所さんの学校では教えてくれないそこんトコロ！",
@@ -84,7 +86,7 @@ var eventsData = [
         },
         "url": null
     },
-    "dateorder": "\/Date(1469048400000)\/"
+    "dateorder": "\/date.getTime()\/"
 },
 {
     "title": "ゴッドタン",
@@ -113,7 +115,7 @@ var eventsData = [
         },
         "url": null
     },
-    "dateorder": "\/Date(1469048400000)\/"
+    "dateorder": "\/date.getTime()\/"
 }];
 
 var eventsData2 = [{
@@ -143,7 +145,7 @@ var eventsData2 = [{
         },
         "url": null
     },
-    "dateorder": "\/Date(1469048400000)\/"
+    "dateorder": "\/date.getTime()\/"
 },
 {
     "title": "Celestyal Nefeli ile Yunan Adaları Atina 3 Gece, Uçaklı Paket",
@@ -172,5 +174,5 @@ var eventsData2 = [{
         },
         "url": null
     },
-    "dateorder": "\/Date(1469048400000)\/"
+    "dateorder": "\/date.getTime()\/"
 }];
