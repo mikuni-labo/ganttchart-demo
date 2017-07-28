@@ -110,8 +110,8 @@ var eventsData = [
         "image": "http://cdn.gezinomi.com//amsterdam-ilkbahar-yaz-turu-1987--1-16.3.2015155554-b4.jpg",
         "desc": ["Türk Havayolları Tarifeli Seferi ile ", " Türkçe Rehber ", " Vizeli ", " 3 Gece - 4 Gün ", " Amsterdam (3)"],
         "dates": {
-            "begin": "21 Temmuz 2017 Perşembe",
-            "end": "24 Temmuz 2017 Pazar"
+            "begin": "2017-07-23 01:30:00",
+            "end": "2017-07-23 02:00:00"
         },
         "url": null
     },
